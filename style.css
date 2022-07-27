@@ -7,7 +7,7 @@
 .mainHeader{
   width: 100%;
   height: 55px;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid lightgray;
 }
 
 nav{
@@ -61,7 +61,7 @@ nav{
 .stories__container{
   display: flex;
   flex-flow: row nowrap;
-  border: 1px solid white;
+  border: 1px solid lightgray;
   border-radius: 10px;
   margin-top: 30px;
   align-items: center;
@@ -87,6 +87,62 @@ nav{
   margin: 0;
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainCont__sugests{
+  margin-top: 30px;
+  background-color: 1c1e21;
+  border: 1px solid white;
+  color: white;
+}
+
+.sugests__profileCont{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.sugests__profileImg{
+  height: 70px;
+  width: 70px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.sugests__text{
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+#sugests__username{
+  color: white;
+  font-weight: 700;
+}
+
+#sugests__name{
+  color: lightgray;
+}
+
+.sugests__linkDiv{
+  justify-self: end;
+  text-align: end;
+}
+
+.sugests__link{
+  text-decoration: none;
+  text-align: end;
+}
+
+.posts{
+  width: 100%;
+}
+
+posts__img{
+  width: 100%;
+  height: auto;
 }
 
 @media (min-width: 991px){
